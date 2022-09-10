@@ -39,10 +39,38 @@ h1 {
 }
 
 #scoreboard {
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    background: rgb(1, 102, 1);
+    border: 10px solid rgb(165, 95, 42);
     top: 50px;
+}
+
+table {
+    position: relative;
+    top: 20px;
+    background: rgb(1, 102, 1);
     margin: auto;
     width: 400px;
-    height: 200px;
-    border: 1px solid black;
+    height: 300px;
     font-family: 'Architects Daughter', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+th {
+    height: 40px;
+    border-bottom: 2px solid white;
+}
+
+td {
+    border: 2px solid white;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+footer{
+    height: 500px;
 }

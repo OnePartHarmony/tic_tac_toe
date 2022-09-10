@@ -1,6 +1,6 @@
 const allBoxes = document.querySelectorAll(".box")
 const turn = document.getElementById("turn")
-let wins = []
+
 
 const winConditions = () => {
     let box1 = document.getElementById("box1").innerText
@@ -45,7 +45,11 @@ const decidePlayer = () => {
                 allBoxes[1].removeEventListener("click", clickBox)
             }
                 turn.innerText = `${playerTurn} Wins!`
-                wins += playerTurn
+                if (playerTurn === "X") {
+                    document.getElementById("xWins").innerText += "1"
+                } else if (playerTurn === "O") {
+                    document.getElementById("oWins").innerText += "1"
+                 }
         } else if (boxesWithX > boxesWithO) {
             playerTurn = "O"
             turn.innerText = "O's Turn"
