@@ -1,15 +1,18 @@
+body {
+    text-align: center;
+}
+
 #board {
+    margin: auto;
     background: black;
-    height: 486px;
-    width: 486px;
+    height: 480px;
+    width: 490px;
 }
 
-table{
-    padding: 0px;
-}
 
-td {
-    border: 3px solid black;
+.box {
+    display: inline-block;
+    border: 4.5px solid black;
     text-align: center;
     font-size: 70px;
     background: white;
