@@ -31,3 +31,18 @@ h1 {
     font-size: 50px;
     color: red;
 }
+
+#reset {
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+#scoreboard {
+    top: 50px;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    font-family: 'Architects Daughter', cursive;
+}
