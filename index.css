@@ -2,21 +2,32 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 #board {
     margin: auto;
     background: black;
-    height: 480px;
+    height: 478px;
     width: 490px;
 }
 
 
 .box {
+    vertical-align: top;
     display: inline-block;
     border: 4.5px solid black;
     text-align: center;
-    font-size: 70px;
+    font-size: 120px;
+    font-family: 'Architects Daughter', cursive;
     background: white;
     color: black;
     height: 150px;
     width: 150px;
+}
+
+#turn {
+    font-size: 50px;
+    color: red;
 }
